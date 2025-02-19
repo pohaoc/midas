@@ -3,8 +3,8 @@ CXXFLAGS += -march=native # required for avx-enhanced rmemcpy
 CXXFLAGS +=  -fPIC
 # CXXFLAGS += -Wall -Wextra
 # CXXFLAGS += -g -O0
-CXX = g++
-LDXX = g++
+CXX = g++-11
+LDXX = g++-11
 
 INC += -Iinc
 
