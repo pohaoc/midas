@@ -1,6 +1,9 @@
 # Explanation
 
 ```
+# Build Midas
+cd ~/midas; ./script/build.sh
+cd ./apps/reclaim_example
 make clean
 make -j
 [Terminal #1]
