@@ -19,7 +19,7 @@ int main() {
   // setting up the memory pool
   cmanager->create_pool("pool_name");
   auto pool = cmanager->get_pool("pool_name");
-  pool->update_limit(kNumValues * kVSize * 2);
+  pool->update_limit(kNumValues * kVSize);
   auto cache = std::make_unique<midas::Array<Value>>(pool, kNumValues);
 
   // populate the data structure
